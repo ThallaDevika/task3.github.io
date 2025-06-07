@@ -1,0 +1,66 @@
+body {
+    background-image: url('greeting.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Greeting-card {
+    background-color: #4523a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#name, #message, #event, #recipient {
+    background-color: #4523a4;
+    border-radius: 12px;
+    height: 25px;
+    width: 250px;
+    margin: 8px 0;
+    color: rgb(154, 27, 189);
+    font-size: medium;
+    text-align: center;
+    -webkit-text-fill-color: rgb(240, 235, 240);
+}
+
+.greeting-card-box {
+    border-radius: 15px;
+    border: 2px solid crimson;
+    padding: 20px;
+    width: fit-content;
+    background-color: rgba(202, 6, 111, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit {
+    background-color: #10ac0b;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    align-items: end;
+
+}
+
+.greeting {
+    -webkit-text-fill-color: azure;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
